@@ -440,7 +440,9 @@ section {
 .contact-icon {
   width: 24px;
   height: 24px;
-  color: var(--primary-color);
+  fill: var(--primary-color); /* Cambia a tu color */
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .contact-form {
@@ -475,6 +477,15 @@ section {
 .form-group textarea {
   resize: vertical;
   min-height: 120px;
+}
+.contact-item a {
+  text-decoration: none; /* Quita el subrayado */
+  color: var(--text-primary); /* Blanco u otro color claro definido */
+  transition: color 0.3s ease; /* Suaviza la transición del color */
+}
+
+.contact-item a:hover {
+  color: var(--primary-color); /* Aclara o ilumina el texto al pasar el ratón */
 }
 
 /* Footer */
