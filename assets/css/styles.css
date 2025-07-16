@@ -416,9 +416,9 @@ section {
 
 /* Contact */
 .contact-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .contact-info {
@@ -435,14 +435,24 @@ section {
   background: var(--card-bg);
   border-radius: 15px;
   border: 1px solid rgba(99, 102, 241, 0.2);
+  min-width: 250px;
+  width: 100%;
 }
 
 .contact-icon {
   width: 24px;
   height: 24px;
-  fill: var(--primary-color); /* Cambia a tu color */
+  fill: var(--primary-color);
   display: inline-block;
   vertical-align: middle;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 1.5rem 3rem;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .contact-form {
@@ -450,6 +460,13 @@ section {
   padding: 2rem;
   border-radius: 15px;
   border: 1px solid rgba(99, 102, 241, 0.2);
+}
+
+.contact-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
 }
 
 .form-group {
@@ -479,13 +496,13 @@ section {
   min-height: 120px;
 }
 .contact-item a {
-  text-decoration: none; /* Quita el subrayado */
-  color: var(--text-primary); /* Blanco u otro color claro definido */
-  transition: color 0.3s ease; /* Suaviza la transición del color */
+  text-decoration: none; 
+  color: var(--text-primary);
+  transition: color 0.3s ease;
 }
 
 .contact-item a:hover {
-  color: var(--primary-color); /* Aclara o ilumina el texto al pasar el ratón */
+  color: var(--primary-color);
 }
 
 /* Footer */
@@ -518,6 +535,26 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
+/* Photo */
+.about-photo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.about-photo {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: var(--glow);
+  border: 3px solid var(--primary-color);
+  transition: transform 0.3s ease;
+}
+
+.about-photo:hover {
+  transform: scale(1.05);
+}
 
 /* Mobile Responsive */
 @media (max-width: 768px) {
@@ -541,6 +578,9 @@ footer {
   .about-content,
   .contact-content {
     grid-template-columns: 1fr;
+  }
+  .contact-grid {
+    max-width: 700px;
   }
 
   .projects-grid {
