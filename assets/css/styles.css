@@ -294,10 +294,9 @@ section {
 
 /* About */
 .about-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .about-text {
@@ -604,5 +603,8 @@ footer {
 
   .container {
     padding: 0 15px;
+  }
+  .about-stats {
+    grid-template-columns: 1fr;
   }
 }
