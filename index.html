@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kevin - Full-Stack Developer</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div class="logo">
+          <img
+            src="assets/img/LogoPortfolio68.png"
+            alt="Logo Kevin Molina"
+            class="logo-img"
+          />
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#projects">Proyecto</a></li>
+          <li><a href="#about">Sobre mí</a></li>
+          <li><a href="#skills">Stack</a></li>
+          <li><a href="#experience">Experiencia</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+        <button class="theme-toggle" onclick="toggleTheme()">
+          <span id="theme-icon">☀️</span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1>Kevin Molina Estrella</h1>
+            <h2 class="section-title">Full‑Stack Developer</h2>
+            <p class="hero-subtitle">
+              Focalizado en IA y soluciones que impulsan el talento en entornos
+              reales.
+            </p>
+            <p class="hero-description">
+              "Lo importante no es cometer errores, sino lo que haces después de
+              ellos."
+            </p>
+            <div class="cta-buttons">
+              <a href="#projects" class="btn btn-primary">Ver proyecto</a>
+              <a href="#contact" class="btn btn-secondary">Contactar</a>
+              <a href="#" class="btn btn-secondary">Probar SmartCareerMate</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="animate-on-scroll">
+        <div class="container">
+          <h2 class="section-title">Proyecto Destacado</h2>
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="project-header">
+                <h3 class="project-title">SmartCareerMate</h3>
+                <span class="project-category">🧠 IA + Web</span>
+              </div>
+              <p class="project-description">
+                Plataforma inteligente que adapta CVs automáticamente según
+                ofertas laborales, genera cartas de presentación personalizadas
+                y simula entrevistas de trabajo usando IA para mejorar las
+                habilidades de comunicación.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Ollama API</span>
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Spring Boot</span>
+                <span class="tech-tag">JWT</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Docker</span>
+                <span class="tech-tag">Angular</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">SCSS</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn-primary">Probar demo</a>
+                <a href="#" class="btn btn-secondary">Ver código</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="animate-on-scroll">
+        <div class="container">
+          <h2 class="section-title">Sobre mí</h2>
+          <div class="about-photo-container">
+            <img
+              src="assets/img/FotoPortfolioPhotopea.png"
+              alt="Foto de perfil de Kevin Molina Estrella"
+              class="about-photo"
+            />
+          </div>
+          <div class="about-content">
+            <div class="about-text">
+              <p>
+                Soy desarrollador Full-Stack con formación en aplicaciones
+                multiplataforma y una trayectoria marcada por la evolución
+                constante y el aprendizaje práctico. Tras experiencias diversas
+                liderando equipos y trabajando cara al público, descubrí en el
+                desarrollo de software una forma de combinar mi lado técnico con
+                mi vocación por aportar valor real a las personas.
+              </p>
+              <br />
+              <p>
+                Me especializo en el desarrollo de aplicaciones web con
+                tecnologías como Angular, Spring Boot, Java, y bases de datos
+                relacionales. En los últimos meses, he centrado mi enfoque en la
+                integración de inteligencia artificial en soluciones orientadas
+                a recursos humanos, como asistentes inteligentes para procesos
+                de selección.
+              </p>
+              <br />
+              <p>
+                Me motiva participar en proyectos con impacto social, donde se
+                valore la colaboración, las buenas prácticas y la mejora
+                continua. Busco entornos donde pueda crecer como desarrollador
+                full-stack o backend, aportar mi experiencia y seguir
+                aprendiendo cada día.
+              </p>
+            </div>
+            <div class="about-stats">
+              <div class="stat-card">
+                <span class="stat-number">10+</span>
+                <span>Tecnologías dominadas</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number">600+</span>
+                <span>Horas de desarrollo y formación</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number">250+</span>
+                <span>Commits realizados en desarrollo activo</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number">100%</span>
+                <span>Implicación, energía y mentalidad positiva</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="animate-on-scroll">
+        <div class="container">
+          <h2 class="section-title">Stack Tecnológico</h2>
+          <div class="skills-grid">
+            <div class="skill-category">
+              <h3>Frontend</h3>
+              <div class="skill-list">
+                <span class="skill-item">HTML5</span>
+                <span class="skill-item">CSS3</span>
+                <span class="skill-item">JavaScript</span>
+                <span class="skill-item">React</span>
+                <span class="skill-item">Angular</span>
+                <span class="skill-item">TypeScript</span>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h3>Backend</h3>
+              <div class="skill-list">
+                <span class="skill-item">Java</span>
+                <span class="skill-item">Python</span>
+                <span class="skill-item">JavaScript</span>
+                <span class="skill-item">Spring Boot</span>
+                <span class="skill-item">Node.js</span>
+                <span class="skill-item">Strapi</span>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h3>IA & APIs</h3>
+              <div class="skill-list">
+                <span class="skill-item">AI APIs</span>
+                <span class="skill-item">Machine Learning</span>
+                <span class="skill-item">Natural Language Processing</span>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h3>Bases de Datos</h3>
+              <div class="skill-list">
+                <span class="skill-item">MySQL</span>
+                <span class="skill-item">PostgreSQL</span>
+                <span class="skill-item">MariaDB</span>
+                <span class="skill-item">Firebase</span>
+                <span class="skill-item">Oracle</span>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h3>DevOps & Tools</h3>
+              <div class="skill-list">
+                <span class="skill-item">Docker</span>
+                <span class="skill-item">Git</span>
+                <span class="skill-item">GitHub Actions</span>
+                <span class="skill-item">AWS</span>
+                <span class="skill-item">MySQL Workbench</span>
+                <span class="skill-item">phpMyAdmin</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section id="experience" class="animate-on-scroll">
+        <div class="container">
+          <h2 class="section-title">Experiencia & Formación</h2>
+          <div class="experience-timeline">
+            <div class="experience-item">
+              <div class="experience-header">
+                <div>
+                  <h3 class="experience-title">
+                    Backend Developer Intern (Prácticas)
+                  </h3>
+                  <p class="experience-company">
+                    🏢 Alebat Management & Consulting
+                  </p>
+                </div>
+                <span class="experience-date">2025</span>
+              </div>
+              <p>
+                Realicé mis prácticas como desarrollador backend liderando la
+                creación de una nueva tienda online dentro de Alebat,
+                coordinando a otros compañeros. Desarrollé soluciones
+                personalizadas para la gestión de contenidos, propuse mejoras
+                técnicas y participé activamente en reuniones con el equipo de
+                producto. También implementé plugins, filtros de búsqueda y
+                lógica personalizada según los requisitos de negocio.
+              </p>
+            </div>
+
+            <div class="experience-item">
+              <div class="experience-header">
+                <div>
+                  <h3 class="experience-title">
+                    Grado en Desarrollo de Aplicaciones Multiplataforma
+                  </h3>
+                  <p class="experience-company">🎓 IES María de Zayas</p>
+                </div>
+                <span class="experience-date">2023 - 2025</span>
+              </div>
+              <p>
+                Proyecto final destacado: aplicación web inteligente que utiliza
+                IA para adaptar automáticamente CVs según ofertas laborales,
+                generar cartas de presentación personalizadas y simular
+                entrevistas de trabajo. Calificación: Matrícula de Honor.
+              </p>
+            </div>
+
+            <div class="experience-item">
+              <div class="experience-header">
+                <div>
+                  <h3 class="experience-title">Jefe de Equipo & Socorrista</h3>
+                  <p class="experience-company">
+                    🏊 Servicios Acuáticos / 📢 Promociones comerciales
+                  </p>
+                </div>
+                <span class="experience-date">2018 - 2025</span>
+              </div>
+              <p>
+                Durante varios años compaginé el trabajo de socorrista con el de
+                jefe de equipo en campañas de promoción comercial para compañías
+                como Vodafone y MásMóvil. En el ámbito acuático, me encargaba de
+                la vigilancia, atención a usuarios y prevención de riesgos en
+                piscinas municipales. Como jefe de equipo, coordinaba a grupos
+                de promotores, organizando horarios, supervisando resultados y
+                motivando al equipo para alcanzar los objetivos diarios. Ambas
+                experiencias reforzaron mis habilidades en gestión de equipos,
+                comunicación efectiva y toma de decisiones bajo presión.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="animate-on-scroll">
+        <div class="container">
+          <h2 class="section-title">Contacto</h2>
+          <div class="contact-content">
+            <div class="contact-info">
+              <div class="contact-grid">
+                <div class="contact-column">
+                  <div class="contact-item">
+                    <svg
+                      class="contact-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                    >
+                      <path
+                        d="M100.28 448H7.4V148.9h92.88zm-46.44-341A53.61 53.61 0 110 60.79 53.61 53.61 0 0153.84 107zM447.9 448h-92.4V302.4c0-34.7-12.4-58.4-43.5-58.4-23.7 0-37.8 16-44 31.4-2.3 5.6-2.8 13.5-2.8 21.4V448h-92.4s1.2-273.7 0-302.1h92.4v42.8c-0.2 0.3-0.5 0.7-0.7 1h0.7v-1c12.3-19 34.3-46.1 83.6-46.1 61 0 106.8 39.8 106.8 125.3V448z"
+                      />
+                    </svg>
+                    <a
+                      href="https://www.linkedin.com/in/kevin-molina-estrella-81132716a/"
+                      target="_blank"
+                      >LinkedIn</a
+                    >
+                  </div>
+
+                  <div class="contact-item">
+                    <svg
+                      class="contact-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 496 512"
+                    >
+                      <path
+                        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-2.9 0-5.2-1.6-5.2-3.6 0-2 2.3-3.6 5.2-3.6 2.9 0 5.2 1.6 5.2 3.6zm-20.3-10.7c-1.1 2.4-4.1 3.3-6.6 2-2.5-1.4-3.7-4.3-2.6-6.8 1.1-2.4 4.1-3.3 6.6-2 2.5 1.4 3.7 4.3 2.6 6.8zm32.8-1.1c-2.3 2.1-6.5 1.5-9.2-1.3-2.8-2.8-3.4-7-1.1-9.2 2.3-2.1 6.5-1.5 9.2 1.3 2.8 2.8 3.4 7 1.1 9.2zM248 8C111 8 0 119 0 256c0 109.3 70.8 202 169.5 234.5 12.4 2.3 17-5.4 17-12v-43.8c-68.9 15-83.5-33.2-83.5-33.2-11.3-28.7-27.5-36.3-27.5-36.3-22.5-15.4 1.7-15.1 1.7-15.1 24.9 1.8 38 25.5 38 25.5 22.1 37.9 58.1 26.9 72.3 20.6 2.2-16 8.6-26.9 15.6-33.1-55-6.3-112.7-27.5-112.7-122.5 0-27.1 9.7-49.2 25.6-66.5-2.6-6.3-11.1-31.8 2.4-66.3 0 0 20.9-6.7 68.4 25.4 19.9-5.5 41.3-8.3 62.5-8.4 21.2.1 42.6 2.9 62.5 8.4 47.4-32.1 68.3-25.4 68.3-25.4 13.5 34.5 5 60 2.4 66.3 15.9 17.3 25.6 39.4 25.6 66.5 0 95.3-57.8 116.1-112.9 122.3 8.8 7.6 16.6 22.5 16.6 45.4v67.3c0 6.7 4.6 14.4 17.1 12C425.2 458 496 365.3 496 256 496 119 385 8 248 8z"
+                      />
+                    </svg>
+                    <a href="https://github.com/Kevin2001mol" target="_blank"
+                      >GitHub</a
+                    >
+                  </div>
+                </div>
+                <div class="contact-column">
+                  <div class="contact-item">
+                    <svg
+                      class="contact-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                    >
+                      <path
+                        d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"
+                      />
+                    </svg>
+                    <a href="mailto:Kevin2001molina@gmail.com"
+                      >Kevin2001molina@gmail.com</a
+                    >
+                  </div>
+
+                  <div class="contact-item">
+                    <svg
+                      class="contact-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                    >
+                      <path
+                        d="M493.4 24.6l-104-24c-11.7-2.7-23.8 2.8-29.3 13.6l-48 96c-5.1 10.2-3.4 22.6 4.2 30.9l60.6 67.5c-36.5 69.3-96.6 129.4-165.9 165.9l-67.5-60.6c-8.3-7.6-20.6-9.3-30.9-4.2l-96 48c-10.8 5.4-16.3 17.6-13.6 29.3l24 104c2.6 11.3 12.8 19.4 24.4 19.4 256.5 0 464-207.5 464-464 0-11.6-8.1-21.8-19.4-24.4z"
+                      />
+                    </svg>
+                    <a href="tel:+34695918954">+34 636 954 899</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025</p>
+      <p>
+        <img
+          src="assets/img/LogoPortfolio68.png"
+          alt="Logo Kevin Molina"
+          class="footer-logo"
+        />
+      </p>
+      <p>Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>
