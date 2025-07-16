@@ -67,6 +67,11 @@ nav {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.logo-img {
+  width: 68px;
+  height: 68px;
+  object-fit: contain;
+}
 
 .nav-links {
   display: flex;
@@ -496,7 +501,7 @@ section {
   min-height: 120px;
 }
 .contact-item a {
-  text-decoration: none; 
+  text-decoration: none;
   color: var(--text-primary);
   transition: color 0.3s ease;
 }
