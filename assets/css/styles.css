@@ -603,7 +603,13 @@ footer {
     grid-template-columns: 1fr;
   }
   .contact-grid {
-    max-width: 700px;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+
+  .contact-item {
+    justify-content: center;
   }
 
   .projects-grid {
