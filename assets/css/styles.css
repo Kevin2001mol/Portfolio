@@ -575,10 +575,6 @@ footer {
   transition: transform 0.3s ease;
 }
 
-.about-photo:hover {
-  transform: scale(1.05);
-}
-
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .nav-links {
@@ -603,7 +599,13 @@ footer {
     grid-template-columns: 1fr;
   }
   .contact-grid {
-    max-width: 700px;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+
+  .contact-item {
+    justify-content: center;
   }
 
   .projects-grid {
